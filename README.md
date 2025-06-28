@@ -12,6 +12,7 @@ An interactive AI-powered chatbot built using **FastAPI**, **LangChain**, **Gemi
 - 🖥️ Beautiful chat UI with typing animation
 - 🌐 Full-stack with FastAPI + Bootstrap frontend
 - 📦 Modular and extensible codebase
+- 📄 download the live chat History
 
 ---
 
@@ -24,7 +25,6 @@ An interactive AI-powered chatbot built using **FastAPI**, **LangChain**, **Gemi
 | Embeddings | GoogleGenerativeAIEmbeddings (Gemini) |
 | LLM        | Gemini 1.5 Flash                      |
 | Vector DB  | FAISS                                 |
-| File I/O   | CSVLoader from LangChain              |
 | Hosting    | Localhost (Uvicorn)                   |
 
 ---
@@ -87,10 +87,10 @@ GOOGLE_API_KEY=your-gemini-api-key-here
 uvicorn app.main:app --reload
 ```
 
-## Visit the app in your browser:
+## 👉 Visit the app in your browser:
 
 ```
-👉 http://localhost:8000
+ http://localhost:8000
 ```
 
 ## 📄 API Endpoint
